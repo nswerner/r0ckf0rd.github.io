@@ -383,11 +383,13 @@ a:focus, a:hover, a:active {
   border-color: #1a252f;
 }
 
-#location {
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 21px;
-  line-height: 1.42857143;
-  margin-top: 12px;
-  font-weight: 300;
+.link-flex {
+  display: flex;
+  width: 25%;
+  margin: 30px auto;
+  justify-content: space-between;
 }
 
+.project-link {
+  font-size: 24px;
+}
