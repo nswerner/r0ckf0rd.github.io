@@ -40,10 +40,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./nicholasWerner_resume.pdf">Resume</a>
@@ -65,11 +65,37 @@
     </div>
   </header>
 
+    <!-- About Section -->
+    <section class=" mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-seconday">About</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">My name is Nicholas Werner. I am a builder. I always have been. Growing up, I was a Lego's kid.
+              I was a doodling storyteller. I wrote my first song
+              on the piano at the age of ten and made my first website at the age of twelve. </p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Before this, I built and managed online retail companies and sold everything from full-sized
+              arcade games to pool floats. Today, I am a software developer looking to work with inspiring people on
+              inspiring projects.</p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="./nicholasWerner_resume.pdf">
+            <!-- <i class="fas fa-download mr-2"></i> -->
+            Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
   <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio">
+  <section class="portfolio bg-primary" id="portfolio">
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-      <hr class="star-dark mb-5">
+      <hr class="star-light mb-5">
       <div style="display:flex; justify-content:space-around;" class="row">
         <div style="text-align:center;display:flex; flex-direction:column; align-content:center;" class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -95,117 +121,97 @@
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="bg-primary text-white mb-0" id="about">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-white">About</h2>
-      <hr class="star-light mb-5">
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">My name is Nicholas Werner. I am a builder. I always have been. Growing up, I was a Lego's kid. I was a doodling storyteller. I wrote my first song
-          on the piano at the age of ten and made my first website at the age of twelve. </p>
+    <div class="skills" style="margin: 0 auto; display:flex; flex-direction:column; align-content: center; ">
+      <h2 style="text-align:center; margin-top:60px;margin-bottom:35px;" class="font-weight-light mb-0">Skills</h2>
+      <br>
+      <ul class="skills-ul"
+        style="margin-top:35px;display:flex;flex-wrap:wrap;width:100%;margin:0 auto;list-style:none;justify-content:center;padding:0;">
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center; margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/ruby.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Ruby </div>
         </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">Before this, I built and managed online retail companies and sold everything from full-sized
-          arcade games to pool floats. Today, I am a software developer looking to work with inspiring people on inspiring projects.</p>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/rails.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Rails </div>
         </div>
-      </div>
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="./nicholasWerner_resume.pdf" >
-          <!-- <i class="fas fa-download mr-2"></i> -->
-          Resume
-        </a>
-      </div>
-      <div class="skills">
-        <h2 style="text-align:center; margin-top:60px;margin-bottom:35px;" class="font-weight-light mb-0">Skills</h2>
-        <br>
-          <ul class="skills-ul" style="margin-top:35px;display:flex;flex-wrap: wrap;width:100%;margin:0 auto;list-style:none;justify-content:flex-start;">
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center; margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/ruby.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Ruby </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/rails.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Rails </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/postgresql.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Postgresql </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/jquery.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> jQuery </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/javascript.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> JavaScript </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/css.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> CSS </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/html.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> HTML </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/canvas.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Canvas </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/react.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> React </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/redux.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Redux </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/git.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Git </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/s3.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> AWS S3 </div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/photoshop.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Photoshop</div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/google.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Google Adwords</div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/analytics.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Google Analytics</div>
-              </div>
-              <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
-                <img style="height:100px;" src="./img/skills/heroku.png" alt="">
-                <br>
-                <div style="font-size:28px;" class="font-weight-light mb-0"> Heroku</div>
-              </div>
-          </ul>
-      </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/postgresql.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Postgresql </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/jquery.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> jQuery </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/javascript.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> JavaScript </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/css.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> CSS </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/html.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> HTML </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/canvas.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Canvas </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/react.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> React </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/redux.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Redux </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/git.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Git </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/s3.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> AWS S3 </div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/photoshop.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Photoshop</div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/google.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Google Adwords</div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/analytics.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Google Analytics</div>
+        </div>
+        <div style="width:20%;display:flex;flex-direction:column;align-items:center;margin:20px 15px;">
+          <img style="height:100px;" src="./img/skills/heroku.png" alt="">
+          <br>
+          <div style="font-size:28px;" class="font-weight-light mb-0"> Heroku</div>
+        </div>
+      </ul>
     </div>
   </section>
+
+
+      
 
   <!-- Footer -->
   <footer class="footer text-center">
@@ -220,17 +226,17 @@
           <h4 class="text-uppercase mb-4">Around the Web</h4>
           <ul class="list-inline mb-0">
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://linkedin.com/in/nicholas-werner-software-dev">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://linkedin.com/in/nicholas-werner-software-dev" target="_blank">
                 <i class="fab fa-fw fa-linkedin-in"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/r0ckf0rd">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/r0ckf0rd" target="_blank">
                 <i id="fa-github" class="fab fa-fw fa-github"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://angel.co/nicholas-werner-1?public_profile=1">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://angel.co/nicholas-werner-1?public_profile=1" target="_blank">
                 <i class="fab fa-angellist"></i>
               </a>
             </li>
